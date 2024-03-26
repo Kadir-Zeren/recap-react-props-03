@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Cat from "./components/Cat";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Cat
+        name="Cenitin"
+        img="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_640.jpg"
+        color="beige"
+      />
+      <Cat
+        name="Garfield"
+        img="https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782_640.jpg"
+        color="grey"
+      />
+      <Cat
+        name="Garfield"
+        img="https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_640.jpg"
+      />
     </div>
   );
 }
